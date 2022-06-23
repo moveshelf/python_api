@@ -1,4 +1,4 @@
-from api import Metadata
+from python_api.api import Metadata
 
 def getPatientMetadata(api, mySubjectId):
     subjectDetails = api.getSubjectDetails(mySubjectId)
